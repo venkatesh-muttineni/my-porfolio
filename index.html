@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Likitha Muttineni — Full Stack Developer</title>
+
+  <!-- fonts & icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- floating background shapes -->
+  <div class="bg-shapes" aria-hidden="true">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+    <span class="blob b4"></span>
+  </div>
+
+  <!-- NAV -->
+  <header class="nav-wrap">
+    <div class="container nav-inner">
+      <div class="brand">Full Stack Web Developer<span class="dot">.</span></div>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Open menu"><i class="fa fa-bars"></i></button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <div class="name-box" data-reveal>
+          <h1>Hi, I’m <span class="name">Venkatesh Muttineni</span></h1>
+          <p class="tagline"><span id="typewriter"></span><span class="cursor">|</span></p>
+        </div>
+
+        <p class="lead" data-reveal>
+          Full Stack Web Developer — building future-ready web experiences using Java, modern frameworks and strong UX focus.
+        </p>
+
+        <div class="hero-cta" data-reveal>
+          <a href="#projects" class="btn">See Projects</a>
+          <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+        </div>
+
+        <ul class="quick-info" data-reveal>
+          <li><strong>Location:</strong> Bengaluru, Karnataka, India</li>
+          <li><strong>Available:</strong> Remote & open to relocation</li>
+        </ul>
+      </div>
+
+      <div class="hero-right" data-reveal>
+        <div class="photo-frame">
+          <img src="/images/personal profile.png" alt="Venkatesh photo">
+          
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ABOUT -->
+  <section id="about" class="panel about" data-reveal>
+    <div class="container">
+      <h2>About Me</h2>
+      <p class="lead">
+        I’m a passionate Full Stack Web Developer with hands-on experience in Java, JavaScript and modern web technologies.
+        I focus on performance, clean code and great user experience.
+      </p>
+
+      <div class="drives" aria-hidden="true">
+        <div class="pill">Innovation & emerging tech</div>
+        <div class="pill">Scalable solutions</div>
+        <div class="pill">Continuous learning</div>
+        <div class="pill">User-centered UX</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="panel skills">
+    <div class="container">
+      <h2 data-reveal>Technical Skills</h2>
+
+      <div class="skills-groups">
+
+        <!-- FRONTEND -->
+        <div class="skill-group" data-reveal>
+          <div class="skill tile front html"><i class="fab fa-html5"></i><span>HTML5</span></div>
+          <div class="skill tile front css"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+          <div class="skill tile front js"><i class="fab fa-js-square"></i><span>JavaScript</span></div>
+          <div class="skill tile front react"><i class="fab fa-react"></i><span>React.js</span></div>
+          <div class="skill tile front boot"><i class="fab fa-bootstrap"></i><span>Bootstrap</span></div>
+        </div>
+
+        <!-- BACKEND -->
+        <div class="skill-group" data-reveal>
+          <div class="skill tile backend java"><i class="fab fa-java"></i><span>Java</span></div>
+          <div class="skill tile backend spring"><i class="fas fa-seedling"></i><span>Spring Boot</span></div>
+          <div class="skill tile backend jsp"><i class="fas fa-code"></i><span>Servlets / JSP</span></div>
+          
+        </div>
+
+        <!-- DB & TOOLS -->
+        <div class="skill-group" data-reveal>
+          <div class="skill tile db mysql"><i class="fas fa-database"></i><span>MySQL</span></div>
+          <div class="skill tile db mongo"><i class="fas fa-database"></i><span>MongoDB</span></div>
+          <div class="skill tile db firebase"><i class="fab fa-google"></i><span>Firebase</span></div>
+          <div class="skill tile tool git"><i class="fab fa-git-alt"></i><span>Git / GitHub</span></div>
+          <div class="skill tile tool api"><i class="fas fa-plug"></i><span>REST API</span></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="panel projects">
+    <div class="container">
+      <h2 data-reveal>Featured Projects</h2>
+
+      <div class="project-grid">
+        <!-- Project 1 -->
+        <article class="project-card" data-reveal>
+          <div class="project-media">
+            <img src="/images/project1.jpg" alt="Healthcare Monitoring System">
+          </div>
+          <div class="project-body">
+            <h3>Alzheimer’s Disease Diagnosis using DenseNet-169</h3>
+            <p class="meta">6 Months</p>
+            <p>
+              This project uses a CNN model based on the DenseNet-169 
+              architecture to classify Alzheimer’s disease stages from brain MRI images.
+            </p>
+
+            <div class="stack colorful">
+              <span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Flask</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card" data-reveal>
+          <div class="project-media">
+            <img src="/images/fooddelivery.png" alt=".We Cook">
+          </div>
+          <div class="project-body">
+            <h3>.We Cook</h3>
+            <p class="meta">6 months</p>
+            <p>
+              A simple and user-friendly food ordering website similar to Swiggy. Users can browse restaurants,
+               view menus, and place online orders easily.
+            </p>
+
+            <div class="stack colorful">
+              <span>Java</span><span>Spring Boot</span><span>JavaScript</span><span>MySQL</span><span>HTML</span><span>CSS</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="https://venkatesh-muttineni.github.io/.weeatproject/" class="btn small">Live / Demo</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="panel experience">
+    <div class="container">
+      <h2 data-reveal>Professional Experience</h2>
+
+      <div class="exp-grid">
+        <div class="exp-item" data-reveal>
+          <h3>Data Science and Data Analytics Intern</h3>
+          <p class="meta">6 months| Bengaluru</p>
+          <ul>
+            <li>These experiences allowed me to apply statistical analysis and machine learning
+                techniques to real-world datasets, contributing to project success</li>
+          </ul>
+          <a class="btn small cert" href="/images/inernship1.jpg" target="_blank" rel="noopener">View Certificate</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+<section id="education" class="panel education">
+  <div class="container">
+    <h2 data-reveal>Education</h2>
+
+    <div class="edu-wrap" data-reveal>
+      <div class="edu-card">
+        <h4>B.E — Computer Science Engineering</h4>
+        <p class="meta">Nov 2021 – Apr 2025 |
+           Usha Rama College of Engineering and Technology, Telaprolu</p>
+        <p>CGPA: 7.78</p>
+      </div>
+
+      <div class="edu-card">
+        <h4>Intermediate (MPC) — 12th/Board of Intermediate Education</h4>
+        <p class="meta">Jun 2019 – Apr 2021 |
+           Sri chaithanya Junior College, Vijayawada</p>
+        <p>CGPA: 9.07</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="panel certifications">
+  <div class="container">
+    <h2 data-reveal>Certifications</h2>
+
+    <div class="edu-wrap" data-reveal>
+      <div class="edu-card">
+        <h4>NPTL</h4>
+        <p class="meta">Jan 2022 –  Apr 2022</p>
+        <a class="btn small cert" href="images/NPTL.jpg" target="_blank">View Certificate</a>
+      </div>
+
+      <div class="edu-card">
+        <h4>AI-ML Virtual Internship</h4>
+        <p class="meta">Mar 2022 – May 2022</p>
+        <a class="btn small cert" href="images/experience2.jpg" target="_blank">View Certificate</a>
+      </div>
+
+      <div class="edu-card">
+        <h4>Process Mining Virtual Internship</h4>
+        <p class="meta">July 2022 – Sep 2022</p>
+        <a class="btn small cert" href="images/exp2.jpg" target="_blank">View Certificate</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="panel contact">
+    <div class="container contact-grid">
+      <div class="contact-left" data-reveal>
+        <h2>Get in touch</h2>
+        <p class="lead">Ready to bring your ideas to life? Let's discuss how we can work together.</p>
+
+        <div class="contact-info">
+          <p class="contact-row"><i class="fa-solid fa-envelope contact-icon"></i>
+            <a href="mailto:iamvenkatesh018@gmail.com">iamvenkatesh018@gmail.com</a>
+          </p>
+          <p class="contact-row"><i class="fa-brands fa-github contact-icon"></i>
+            <a href="https://github.com/venkatesh-muttineni" target="_blank">GitHub</a>
+          </p>
+          <p class="contact-row"><i class="fa-solid fa-map-marker-alt contact-icon"></i>
+            Bengaluru, Karnataka, India
+          </p>
+        </div>
+
+        <p class="small muted">“Building the future, one line of code at a time.”</p>
+      </div>
+
+      <div class="contact-right" data-reveal>
+        <form id="contactForm" class="contact-form">
+          <label>
+            <span>Your Name</span>
+            <input id="fname" type="text" name="name" placeholder="Enter your name" required>
+          </label>
+
+          <label>
+            <span>Email Address</span>
+            <input id="femail" type="email" name="email" placeholder="Enter your email" required>
+          </label>
+
+          <label>
+            <span>Message</span>
+            <textarea id="fmsg" name="message" rows="5" placeholder="Tell me about your project or opportunity..." required></textarea>
+          </label>
+
+          <div class="form-actions">
+            <button type="submit" class="btn">Send Message</button>
+            <button type="reset" class="btn btn-ghost">Clear</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p>© 2025 Likitha Muthineni</p>
+        <p class="muted">Designed & Developed for the Future</p>
+      </div>
+      <div class="footer-right social">
+        <a href="https://github.com/Likitha-Muthineni" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
